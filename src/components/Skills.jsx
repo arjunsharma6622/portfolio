@@ -3,31 +3,31 @@ import { LinearGradient } from 'react-text-gradients'
 
 
 const skillsData = [
-  { name: 'JavaScript', imageSrc: '../Images/Icons/js.svg', tag: 'Web' },
-  { name: 'Python', imageSrc: '../Images/Icons/python.svg', tag: 'Web' },
-  { name: 'C++', imageSrc: '../Images/Icons/c++.svg', tag: 'Web' },
-  { name: 'HTML', imageSrc: '../Images/Icons/html5.svg', tag: 'Web' },
-  { name: 'CSS', imageSrc: '../Images/Icons/css.svg', tag: 'Web' },
+  { name: 'JavaScript', imageSrc: './images/Icons/js.svg', tag: 'Web' },
+  { name: 'Python', imageSrc: './images/Icons/python.svg', tag: 'Web' },
+  { name: 'C++', imageSrc: './images/Icons/c++.svg', tag: 'Web' },
+  { name: 'HTML', imageSrc: './images/Icons/html5.svg', tag: 'Web' },
+  { name: 'CSS', imageSrc: './images/Icons/css.svg', tag: 'Web' },
 
-  { name: 'React', imageSrc: '../Images/Icons/reactjs.svg', tag: 'Web' },
-  { name: 'Redux', imageSrc: '../Images/Icons/redux.svg', tag: 'Web' },
-  { name: 'Tailwind', imageSrc: '../Images/Icons/tailwind.svg', tag: 'Web' },
-  { name: 'SASS', imageSrc: '../Images/Icons/sass.svg', tag: 'Web' },
-  { name: 'Bootstrap', imageSrc: '../Images/Icons/bootstrap5.svg', tag: 'Web' },
-  { name: 'Material UI', imageSrc: '../Images/Icons/material-ui.svg', tag: 'Web' },
-  { name: 'Figma', imageSrc: '../Images/Icons/figma.svg', tag: 'Web' },
-  { name: 'Canva', imageSrc: '../Images/Icons/canva.svg', tag: 'Web' },
+  { name: 'React', imageSrc: './images/Icons/reactjs.svg', tag: 'Web' },
+  { name: 'Redux', imageSrc: './images/Icons/redux.svg', tag: 'Web' },
+  { name: 'Tailwind', imageSrc: './images/Icons/tailwind.svg', tag: 'Web' },
+  { name: 'SASS', imageSrc: './images/Icons/sass.svg', tag: 'Web' },
+  { name: 'Bootstrap', imageSrc: './images/Icons/bootstrap5.svg', tag: 'Web' },
+  { name: 'Material UI', imageSrc: './images/Icons/material-ui.svg', tag: 'Web' },
+  { name: 'Figma', imageSrc: './images/Icons/figma.svg', tag: 'Web' },
+  { name: 'Canva', imageSrc: './images/Icons/canva.svg', tag: 'Web' },
 
-  { name: 'NodeJs', imageSrc: '../Images/Icons/nodejs.svg', tag: 'Web' },
-  { name: 'MongoDb', imageSrc: '../Images/Icons/mongodb.svg', tag: 'Web' },
-  { name: 'Postman', imageSrc: '../Images/Icons/postman.svg', tag: 'Web' },
-  { name: 'Firebase', imageSrc: '../Images/Icons/firebase.svg', tag: 'Web' },
-  { name: 'npm', imageSrc: '../Images/Icons/npm.svg', tag: 'Web' },
-  { name: 'json', imageSrc: '../Images/Icons/json.svg', tag: 'Web' },
-  { name: 'VS Code', imageSrc: '../Images/Icons/vs.svg', tag: 'Web' },
-  { name: 'Git', imageSrc: '../Images/Icons/git.svg', tag: 'Web' },
-  { name: 'GitHub', imageSrc: '../Images/Icons/github.svg', tag: 'Web' },
-  { name: 'OpenAI', imageSrc: '../Images/Icons/openai.svg', tag: 'Web' },
+  { name: 'NodeJs', imageSrc: './images/Icons/nodejs.svg', tag: 'Web' },
+  { name: 'MongoDb', imageSrc: './images/Icons/mongodb.svg', tag: 'Web' },
+  { name: 'Postman', imageSrc: './images/Icons/postman.svg', tag: 'Web' },
+  { name: 'Firebase', imageSrc: './images/Icons/firebase.svg', tag: 'Web' },
+  { name: 'npm', imageSrc: './images/Icons/npm.svg', tag: 'Web' },
+  { name: 'json', imageSrc: './images/Icons/json.svg', tag: 'Web' },
+  { name: 'VS Code', imageSrc: './images/Icons/vs.svg', tag: 'Web' },
+  { name: 'Git', imageSrc: './images/Icons/git.svg', tag: 'Web' },
+  { name: 'GitHub', imageSrc: './images/Icons/github.svg', tag: 'Web' },
+  { name: 'OpenAI', imageSrc: './images/Icons/openai.svg', tag: 'Web' },
 ];
 
 
@@ -73,7 +73,7 @@ function Skills() {
         </h2> */}
 
 <div className='text-center mb-6 flex justify-items-start items-center gap-3'>
-        <img src="./../Images/folder.svg" alt="" className='h-8 w-8'/>
+        <img src="./images/folder.svg" alt="" className='h-8 w-8'/>
         <LinearGradient gradient={['to left', '#101010 ,#808080']} className="text-6xl font-black text-center">
           /SKILLS
         </LinearGradient>

@@ -13,7 +13,7 @@ function Footer() {
             rel="noopener noreferrer"
             className="hover:text-accent1 transition duration-300"
           >
-            <img src="../Images/Icons/Social/Github.svg" alt="GitHub" className="h-8 w-8" />
+            <img src="./images/Icons/Social/github.svg" alt="GitHub" className="h-8 w-8" />
           </a>
           <a
             href="https://linkedin.com/in/your-linkedin"
@@ -21,7 +21,7 @@ function Footer() {
             rel="noopener noreferrer"
             className="hover:text-accent1 transition duration-300"
           >
-            <img src="../Images/Icons/Social/Linkedin.svg" alt="LinkedIn" className="h-8 w-8" />
+            <img src="./images/Icons/Social/Linkedin.svg" alt="LinkedIn" className="h-8 w-8" />
           </a>
           <a
             href="https://medium.com/@your-medium"
@@ -29,7 +29,7 @@ function Footer() {
             rel="noopener noreferrer"
             className="hover:text-accent1 transition duration-300"
           >
-            <img src="../Images/Icons/Social/Medium.svg" alt="Medium" className="h-8 w-8" />
+            <img src="./images/Icons/Social/Medium.svg" alt="Medium" className="h-8 w-8" />
           </a>
           <a
             href="https://leetcode.com/your-leetcode"
@@ -37,7 +37,7 @@ function Footer() {
             rel="noopener noreferrer"
             className="hover:text-accent1 transition duration-300"
           >
-            <img src="../Images/Icons/Social/Youtube.svg" alt="LeetCode" className="h-8 w-8" />
+            <img src="./images/Icons/Social/Youtube.svg" alt="LeetCode" className="h-8 w-8" />
           </a>
         </div>
         <p className="text-sm">Connect with me on social media</p>

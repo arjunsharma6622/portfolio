@@ -90,12 +90,14 @@ body{
   height: 2.2px; /* Adjust as needed */
   bottom: -2px; /* Add a gap between text and underline */
   left: 0;
-  background-color: white; /* Your preferred underline color */
-  transform: scaleX(0); /* Initially, no width */
+  background-color: #3d3d3d; /* Your preferred underline color */
+  transform: scaleX(0.1); /* Initially, no width */
   transform-origin: bottom left;
-  transition: transform 0.2s ease-out; /* Transition width changes */
+  transition: transform 0.2s ease-in-out; /* Transition width changes */
 }
 
 .underline-animation.active::before {
   transform: scaleX(1); /* Full width on active link */
+  background-color: white; /* Your preferred underline color */
+
 }

@@ -9,6 +9,10 @@
   
 }
 
+body{
+  background-color: #0D0D0D;
+}
+
 
 
 @keyframes cursorTrail {
@@ -67,7 +71,7 @@
 /* Add these styles to your CSS */
 /* Basic styles for the navigation links */
 .text-accent1 {
-  color: #2a2a2a; /* Your preferred color */
+  color: #3d3d3d; /* Your preferred color */
   transition: color 0.3s; /* Transition color changes */
 }
 
@@ -76,16 +80,17 @@
   position: relative;
   text-decoration: none;
   transition: 0.3s ease-out;
+  scale: 1;
 }
 
 .underline-animation::before {
   content: '';
   position: absolute;
   width: 100%;
-  height: 2px; /* Adjust as needed */
-  bottom: -8px; /* Add a gap between text and underline */
+  height: 2.2px; /* Adjust as needed */
+  bottom: -2px; /* Add a gap between text and underline */
   left: 0;
-  background-color: #6699ff; /* Your preferred underline color */
+  background-color: white; /* Your preferred underline color */
   transform: scaleX(0); /* Initially, no width */
   transform-origin: bottom left;
   transition: transform 0.2s ease-out; /* Transition width changes */

@@ -106,19 +106,19 @@ const SecondaryNavigation = () => {
   return (
     <div className={`text-white text-base ${showSecondaryNav ? '' : 'hidden'} duration-300`}>
       <nav className="fixed -left-2 top-1/2 transform -translate-y-1/2 flex flex-col items-center bg-primary border-primary text-white py-1 -px-2">
-      <a href="#contact" className={`text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'contact' ? 'text-blue-600' : ''}`}>
+      <a href="#contact" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'contact' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'contact' ? 'active' : ''}`}>Contact</span>
         </a>
-        <a href="#projects" className={`text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'projects' ? 'text-blue-600' : ''}`}>
+        <a href="#projects" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'projects' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'projects' ? 'active' : ''}`}>Projects</span>
         </a>
-        <a href="#experience" className={`text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'experience' ? 'text-blue-600' : ''}`}>
+        <a href="#experience" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'experience' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'experience' ? 'active' : ''}`}>Experience</span>
         </a>
-        <a href="#skills" className={`text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'skills' ? 'text-blue-600' : ''}`}>
+        <a href="#skills" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'skills' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'skills' ? 'active' : ''}`}>Skills</span>
         </a>
-        <a href="#about" className={`text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'about' ? 'text-blue-600' : ''}`}>
+        <a href="#about" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-10 ${activeSection === 'about' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'about' ? 'active' : ''}`}>About</span>
         </a>
         <a href="#home" className="text-accent1 hover:text-accent2 transform my-1">

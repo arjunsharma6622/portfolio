@@ -14,7 +14,7 @@ const SocialMedia = () => {
         <img src="./public/images/Icons/Social/youtube.svg" alt="" className='h-8 w-8'/>
       </a>
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-accent1 hover:text-accent2 transition duration-300">
-        <img src="./public/images/Icons/Social/medium.svg" alt="" className='h-8 w-8'/>
+        <img src="./images/Icons/Social/medium.svg" alt="" className='h-8 w-8'/>
       </a>
     </div>
   );

@@ -4,11 +4,11 @@ export const socialLinks = [
         link : 'https://www.linkedin.com/in/arjunsharma6622/'
     },
     {
-        icon : './images/Icons/Social/Github.svg',
+        icon : './images/Icons/Social/github.svg',
         link : 'https://github.com/Arjun27sharma'
     },
     {
-        icon : './images/Icons/Social/Github.svg',
+        icon : './images/Icons/Social/github.svg',
         link : 'https://leetcode.com/arjunsharma6622/'
     },
     {

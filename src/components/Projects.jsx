@@ -9,51 +9,60 @@ const projectsData = [
     techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
     demoLink: 'https://example.com/demo1',
     codeLink: 'https://github.com/yourusername/project1',
-    image: 'https://t-mobile.scene7.com/is/image/Tmusprod/netflix-hero_desktop:HERO-desktop?fmt=png&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0'
+    image: 'https://miro.medium.com/v2/resize:fit:2000/1*hLrWUW2mKy-GTeujcXl0NA.png'
   },
   {
-    title: 'Project 1',
+    title: 'Serivce listing website',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwindcss'],
     demoLink: 'https://example.com/demo1',
     codeLink: 'https://github.com/yourusername/project1',
+    image: 'https://9to5mac.com/wp-content/uploads/sites/6/2019/07/twitter-desktop-dark-mode-new-design.jpeg?quality=82&strip=all'
   },
   {
-    title: 'Project 2',
+    title: 'Ecommerce Website',
     description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
     techStack: ['React', 'Redux', 'Firebase'],
     demoLink: 'https://example.com/demo2',
     codeLink: 'https://github.com/yourusername/project2',
+    image:'https://websitesetup.org/wp-content/uploads/2023/02/WooCommerce-ecommerce-platform-February-2023.jpg'
   },
   {
-    title: 'Project 2',
+    title: 'Facebook Clone',
     description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
     techStack: ['React', 'Redux', 'Firebase'],
     demoLink: 'https://example.com/demo2',
     codeLink: 'https://github.com/yourusername/project2',
+    image:'https://engineering.fb.com/wp-content/uploads/2020/05/2.-Home-Setting-Dark-Mode.png'
   },
-  // Add more projects here
+  {
+    title: 'Form Fix',
+    description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+    techStack: ['React', 'Redux', 'Firebase'],
+    demoLink: 'https://example.com/demo2',
+    codeLink: 'https://github.com/yourusername/project2',
+    image:'https://engineering.fb.com/wp-content/uploads/2020/05/2.-Home-Setting-Dark-Mode.png'
+  },
 ];
 
 function ProjectCard({ project }) {
   return (
-    <div className="bg-neutral-900 border border-neutral-700 rounded-lg shadow-lg p-6 ">
+    <div className="bg-secondary border border-neutral-700 rounded-xl shadow-lg p-6 ">
 
-      <h3 className="text-2xl font-semibold">{project.title}</h3>
-      <div>
-        <img src={project.image} alt="" />
+      <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
+      <div className='h-60 mb-4'>
+        <img src={project.image} alt="" className='h-full w-full object-cover rounded-lg'/>
       </div>
-      <p className="text-gray-600 mt-2">{project.description}</p>
-      <div className="mt-4">
-        <p className="text-gray-800 font-semibold">Tech Stack:</p>
+      <p className="text-gray-600 mb-4">{project.description}</p>
+      <div className="mb-4">
         <ul className="text-gray-600 flex flex-wrap text-sm gap-1">
           {project.techStack.map((tech, index) => (
             
-            <li key={index}className='border border-primary rounded-full px-3 py-1' >{tech}</li>
+            <li key={index}className='border border-primary rounded-full px-3 py-[1.5px]' >{tech}</li>
           ))}
         </ul>
       </div>
-      <div className="mt-4 flex">
+      <div className="flex">
         <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mr-4 flex justify-start items-center">
           <div className='flex justify-center gap-2 items-center'>
           <img src="./images/Frame 1.svg" alt="" />

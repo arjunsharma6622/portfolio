@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundColor: {
         'primary': '#0D0D0D', // Very dark gray (Primary Background Color)
-        'secondary': '#181818', // Dark gray (Secondary Background Color)
+        'secondary': '#141414', // Dark gray (Secondary Background Color)
       },
       textColor: {
         'white': '#FFFFFF', // White (Text Color)

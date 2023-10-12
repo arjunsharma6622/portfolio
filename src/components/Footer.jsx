@@ -3,7 +3,7 @@ import { socialLinks } from '../data';
 
 function Footer() {
   return (
-    <footer className="relative bg-primary text-white py-6">
+    <footer className="relative text-white py-6">
       <div className="container mx-auto flex flex-col items-center justify-center">
         <div className="absolute w-1/4 h-20 bg-gray-600 bg-opacity-60 rounded-full blur-3xl" />
 
@@ -16,7 +16,7 @@ function Footer() {
               className="hover:text-accent1 transition duration-300"
               key={index}
             >
-              <img src={social.icon} alt="GitHub" className="h-8 w-8" />
+              <img src={social.icon} alt="GitHub" className="h-9 w-9" />
             </a>
           ))}
 

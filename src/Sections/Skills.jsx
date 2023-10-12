@@ -31,7 +31,7 @@ function Skills() {
   return (
     <section className=" text-white py-16 relative" id='skills'>
       <div className="container mx-auto w-8/12">
-        <Heading name={'SKILLS'} />
+        <Heading name={'SKILLS'} heading_desc={'Skills That Define Me'}/>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
           {skillsData.map((skill, index) => (
             <SkillCard key={index} skill={skill} />

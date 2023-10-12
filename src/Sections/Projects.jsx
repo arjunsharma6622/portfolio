@@ -48,7 +48,7 @@ function Projects() {
 
       <div className="container mx-auto w-8/12">
 
-        <Heading name={'PROJECTS'} />
+        <Heading name={'PROJECTS'} heading_desc={'A Portfolio of Projects'}/>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {projectsData.map((project, index) => (

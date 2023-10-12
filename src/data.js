@@ -8,7 +8,7 @@ export const socialLinks = [
         link : 'https://github.com/Arjun27sharma'
     },
     {
-        icon : './images/Icons/Social/github.svg',
+        icon : './images/Icons/Social/Leetcode.svg',
         link : 'https://leetcode.com/arjunsharma6622/'
     },
     {

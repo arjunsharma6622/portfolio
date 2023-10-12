@@ -8,7 +8,7 @@ function Experience() {
   return (
     <section className=" text-white py-16" id='experience'>
       <div className="container mx-auto w-8/12">
-        <Heading name={'EXPERIENCE'}/>
+        <Heading name={'EXPERIENCE'} heading_desc={'My Professional Voyage'}/>
 
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           {experienceData.map((experience, index) => (

@@ -14,7 +14,7 @@ function Contact() {
         {/* <h2 className="text-4xl font-bold mb-6 text-center">Contact</h2> */}
 
 
-        <Heading name={'CONTACT ME!'}/>
+        <Heading name={'CONTACT ME!'} heading_desc={'Connect With Me'}/>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 

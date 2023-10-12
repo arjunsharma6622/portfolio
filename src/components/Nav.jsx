@@ -104,9 +104,9 @@ const SecondaryNavigation = () => {
   }, [activeSection]);
 
   return (
-    <div className={`text-white text-base ${showSecondaryNav ? '' : 'hidden'} duration-300`} style={{fontFamily: 'Edu QLD Beginner, cursive'
+    <div className={`text-white text-base ${showSecondaryNav ? '' : 'hidden'} duration-300 font-medium`} style={{fontFamily: 'Edu QLD Beginner, cursive'
   }}>
-      <nav className="fixed -left-2 top-1/2 transform -translate-y-1/2 flex flex-col items-center bg-primary border rounded-3xl py-8 rounded-tl-none rounded-bl-none border-primary text-white -px-2">
+      <nav className="fixed -left-2 top-1/2 transform -translate-y-1/2 flex flex-col items-center bg-secondary border rounded-3xl py-8 rounded-tl-none rounded-bl-none border-primary text-white -px-2">
 
 
 

@@ -8,7 +8,7 @@ function About() {
       <div className="container mx-auto w-8/12">
 
 
-        <Heading name={'ABOUT ME'}/>
+        <Heading name={'ABOUT ME'} heading_desc={'A Glimpse Into My Journey'}/>
 
 
 

@@ -61,10 +61,10 @@ const SocialMedia = () => {
   }, []);
 
   return showSocialMedia ? (
-    <div className="fixed right-4 top-1/2 transform -translate-y-1/2 flex flex-col items-center gap-8 bg-secondary border border-primary rounded-xl px-3 py-4">
+    <div className="fixed right-4 top-1/2 transform -translate-y-1/2 flex flex-col items-center gap-6 bg-secondary border border-primary rounded-2xl px-3 py-6">
       {socialLinks.map((social, index) => (
         <a href={social.link} target="_blank" rel="noopener noreferrer" className="text-accent1 hover:text-accent2 transition duration-300" key={index}>
-          <img src={social.icon} alt="" className='h-8 w-8' />
+          <img src={social.icon} alt="" className='h-9 w-9' />
         </a>
       ))}
 

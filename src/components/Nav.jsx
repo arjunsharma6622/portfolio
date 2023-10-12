@@ -104,8 +104,9 @@ const SecondaryNavigation = () => {
   }, [activeSection]);
 
   return (
-    <div className={`text-white text-base ${showSecondaryNav ? '' : 'hidden'} duration-300`}>
-      <nav className="fixed -left-2 top-1/2 transform -translate-y-1/2 flex flex-col items-center bg-primary border-primary text-white py-1 -px-2">
+    <div className={`text-white text-base ${showSecondaryNav ? '' : 'hidden'} duration-300`} style={{fontFamily: 'Edu QLD Beginner, cursive'
+  }}>
+      <nav className="fixed -left-2 top-1/2 transform -translate-y-1/2 flex flex-col items-center bg-primary border rounded-3xl py-8 rounded-tl-none rounded-bl-none border-primary text-white -px-2">
 
 
 
@@ -115,25 +116,25 @@ const SecondaryNavigation = () => {
           <img src="./images/home.svg" alt="" />
         </a>
 
-        <a href="#about" className={`text-base text-accent1 hover:text-accent2 transform -rotate-90 mb-4 mt-8 ${activeSection === 'about' ? 'text-white' : ''}`}>
+        <a href="#about" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 mb-4 mt-8 ${activeSection === 'about' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'about' ? 'active' : ''}`}>About</span>
         </a>
 
 
-        <a href="#skills" className={`text-base text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'skills' ? 'text-white' : ''}`}>
+        <a href="#skills" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'skills' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'skills' ? 'active' : ''}`}>Skills</span>
         </a>
 
 
-        <a href="#experience" className={`text-base text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'experience' ? 'text-white' : ''}`}>
+        <a href="#experience" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'experience' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'experience' ? 'active' : ''}`}>Experience</span>
         </a>
 
-        <a href="#projects" className={`text-base text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'projects' ? 'text-white' : ''}`}>
+        <a href="#projects" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'projects' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'projects' ? 'active' : ''}`}>Projects</span>
         </a>
 
-        <a href="#contact" className={`text-base text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'contact' ? 'text-white' : ''}`}>
+        <a href="#contact" className={`text-lg text-accent1 hover:text-accent2 transform -rotate-90 my-8 ${activeSection === 'contact' ? 'text-white' : ''}`}>
           <span className={`underline-animation ${activeSection === 'contact' ? 'active' : ''}`}>Contact</span>
         </a>
       </nav>

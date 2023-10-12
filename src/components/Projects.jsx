@@ -100,13 +100,17 @@ function Projects() {
         {/* <h2 className="text-5xl tracking-wider  font-bold mb-6 text-center bg-gradient-silver bg-clip-text text-transparent py-2">PROJECTS</h2> */}
         {/* <GradientText text="Skills" style={silverGradient} /> */}
         
-        <div className='text-center mb-6 flex justify-items-start items-center gap-3'>
+        <div className='text-center flex justify-items-start items-center gap-3'>
         <img src="./images/folder.svg" alt="" className='h-8 w-8'/>
 
         <LinearGradient gradient={['to left', '#101010 ,#808080']} className="text-6xl font-black text-center">
           /PROJECTS
         </LinearGradient>
+        
         </div>
+        <p className='mb-6'>Take a look at my projects</p>
+
+
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {projectsData.map((project, index) => (

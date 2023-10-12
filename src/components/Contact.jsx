@@ -28,12 +28,6 @@ function Contact() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
-            <p>Email: example@example.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
-            <p>Address: 123 Main St, City, Country</p>
-          </div>
 
           <div>
             <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>

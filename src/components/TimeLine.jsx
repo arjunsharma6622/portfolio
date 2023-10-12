@@ -3,7 +3,7 @@ import React from 'react';
 function Timeline({ heading, date, description, icon }) {
   return (
     <li className="mb-6 sm:mb-8 md:mb-10 ml-6">
-      <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900">
+      <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3">
         {icon}
       </span>
       <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white sm:text-xl md:text-2xl lg:text-3xl">

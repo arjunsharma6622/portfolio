@@ -12,7 +12,7 @@ function Header() {
 
   
   return (
-    <header className="bg-primary text-white px-16 py-8 relative">
+    <header className="bg-primary text-white px-16 py-8 relative" id='home'>
               <div className="w-96 h-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className=" w-96 h-56 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
           <div className=" w-96 h-56 left-64 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />

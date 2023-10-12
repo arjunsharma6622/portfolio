@@ -41,6 +41,9 @@ const SecondaryNavigation = () => {
       <a href="#about" className="text-accent1 hover:text-accent2 transform -rotate-90 my-10">
         About
       </a>
+      <a href="#home" className="text-accent1 hover:text-accent2 transform my-1">
+        <img src="./images/home.svg" alt="" />
+      </a>
     </nav>
       </div>
   );

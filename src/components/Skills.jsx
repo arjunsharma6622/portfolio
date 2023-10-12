@@ -59,7 +59,7 @@ function SkillCard({ skill }) {
 
 function Skills() {
   return (
-    <section className="bg-primary text-white py-16 relative">
+    <section className="bg-primary text-white py-16 relative" id='skills'>
 
       {/* <div className="-z-12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/3 bg-blue-800 bg-opacity-30 rounded-full blur-3xl" /> */}
 

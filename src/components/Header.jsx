@@ -1,6 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import { initializeSmoothScroll } from './SmoothScroll';
+
+
+
 
 function Header() {
+
+  useEffect(() => {
+    initializeSmoothScroll(); // Initialize smooth scrolling
+  }, []);
+
+  
   return (
     <header className="bg-primary text-white px-16 py-8 relative">
               <div className="w-96 h-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -14,7 +24,7 @@ function Header() {
         </div>
         <nav className="space-x-4">
           <a href="#about" className="text-accent1 hover:text-accent2 transition duration-300">About</a>
-          <a href="#education" className="text-accent1 hover:text-accent2 transition duration-300">Education</a>
+          <a href="#skills" className="text-accent1 hover:text-accent2 transition duration-300">Skills</a>
           <a href="#experience" className="text-accent1 hover:text-accent2 transition duration-300">Experience</a>
           <a href="#projects" className="text-accent1 hover:text-accent2 transition duration-300">Projects</a>
           <a href="#contact" className="text-accent1 hover:text-accent2 transition duration-300">Contact</a>

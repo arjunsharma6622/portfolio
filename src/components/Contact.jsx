@@ -9,7 +9,7 @@ function Contact() {
   };
 
   return (
-    <section className="bg-primary text-white py-16 relative">
+    <section className="bg-primary text-white py-16 relative" id='contact'>
       <div className="container mx-auto w-8/12 ">
         {/* <h2 className="text-4xl font-bold mb-6 text-center">Contact</h2> */}
 

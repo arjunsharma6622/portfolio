@@ -3,7 +3,7 @@ import { LinearGradient } from 'react-text-gradients';
 
 function About() {
   return (
-    <section className="bg-primary text-white py-16">
+    <section className="bg-primary text-white py-16" id='about'>
       <div className="container mx-auto w-8/12">
 
 

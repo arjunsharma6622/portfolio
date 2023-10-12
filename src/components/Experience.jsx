@@ -21,7 +21,7 @@ const experienceData = [
 
 function Experience() {
   return (
-    <section className="bg-primary text-white py-16">
+    <section className="bg-primary text-white py-16" id='experience'>
       <div className="container mx-auto w-8/12">
 
         {/* <h2 className="text-4xl font-bold mb-6 text-center">Experience</h2> */}

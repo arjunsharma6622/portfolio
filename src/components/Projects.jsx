@@ -94,7 +94,7 @@ function Projects() {
 
 
   return (
-    <section className="bg-primary text-white py-16 relative ">
+    <section className="bg-primary text-white py-16 relative " id='projects'>
 
       <div className="container mx-auto w-8/12">
         {/* <h2 className="text-5xl tracking-wider  font-bold mb-6 text-center bg-gradient-silver bg-clip-text text-transparent py-2">PROJECTS</h2> */}

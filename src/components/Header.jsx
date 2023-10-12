@@ -23,11 +23,11 @@ function Header() {
           <h1 className="text-2xl font-bold">🙂 Arjun Sharma</h1>
         </div>
         <nav className="space-x-4">
-          <a href="#about" className="text-accent1 hover:text-accent2 transition duration-300">About</a>
-          <a href="#skills" className="text-accent1 hover:text-accent2 transition duration-300">Skills</a>
-          <a href="#experience" className="text-accent1 hover:text-accent2 transition duration-300">Experience</a>
-          <a href="#projects" className="text-accent1 hover:text-accent2 transition duration-300">Projects</a>
-          <a href="#contact" className="text-accent1 hover:text-accent2 transition duration-300">Contact</a>
+          <a href="#about" className=" hover:text-accent2 transition duration-300">About</a>
+          <a href="#skills" className=" hover:text-accent2 transition duration-300">Skills</a>
+          <a href="#experience" className=" hover:text-accent2 transition duration-300">Experience</a>
+          <a href="#projects" className=" hover:text-accent2 transition duration-300">Projects</a>
+          <a href="#contact" className=" hover:text-accent2 transition duration-300">Contact</a>
         </nav>
       </div>
     </header>

@@ -7,7 +7,7 @@ function Hero() {
   };
 
   return (
-    <section className="hero bg-primary py-16 text-white">
+    <section className="hero  py-16 text-white">
       <div className="container mx-auto">
         <div className="hero-content text-center">
 

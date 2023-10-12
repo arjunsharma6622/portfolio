@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinearGradient } from 'react-text-gradients'
+import Heading from '../components/Heading';
 
 
 function Contact() {
@@ -9,23 +9,12 @@ function Contact() {
   };
 
   return (
-    <section className="bg-primary text-white py-16 relative" id='contact'>
+    <section className=" text-white py-16 relative" id='contact'>
       <div className="container mx-auto w-8/12 ">
         {/* <h2 className="text-4xl font-bold mb-6 text-center">Contact</h2> */}
 
 
-
-          
-
-        <div className='text-center mb-6 flex justify-items-start items-center gap-3'>
-        <img src="./images/folder.svg" alt="" className='h-8 w-8'/>            
-        <LinearGradient
-          gradient={['to left', '#101010, #808080']}
-          className="text-6xl font-black"
-        >
-          /CONTACT ME!
-        </LinearGradient>
-        </div>
+        <Heading name={'CONTACT ME!'}/>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 

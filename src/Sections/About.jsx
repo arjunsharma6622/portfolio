@@ -10,28 +10,12 @@ function About() {
 
         <Heading name={'ABOUT ME'}/>
 
-        <p className="text-lg">
-          Hi there! I'm Arjun, a passionate Full Stack Web Developer based in Hyderabad.
-        </p>
-        <p className="text-lg mt-4">
-          I love building web applications that not only look great but also provide a seamless user experience.
-          With a background in both front-end and back-end technologies, I'm excited to bring creative ideas to life.
-        </p>
-        <div className="mt-8">
-          <a
-            href="link-to-resume.pdf" // Replace with the actual link to your resume
-            target="_blank"
-            className="text-primary bg-transparent border border-primary rounded-full px-6 py-3 mx-2 hover:bg-primary hover:text-white transition duration-300"
-          >
-            Resume
-          </a>
-          <a
-            href="#contact" // Replace with the actual link to your contact section
-            className="bg-primary text-white rounded-full px-6 py-3 mx-2 hover:bg-accent1 transition duration-300"
-          >
-            Get in Touch
-          </a>
-        </div>
+
+
+
+        <div className="responsive-iframe">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4yYZKSw3t44?si=Y1eQJl2FoRIkKGDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
       </div>
     </section>
   );

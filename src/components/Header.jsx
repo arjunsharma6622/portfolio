@@ -14,9 +14,9 @@ function Header() {
   return (
     <header className="bg-primary text-white px-16 py-8 relative" id='home'>
               <div className="w-96 h-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div className=" w-96 h-56 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
-          <div className=" w-96 h-56 left-64 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
-          <div className=" w-96 h-56 right-64 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
+          <div className=" w-96 h-48 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
+          <div className=" w-96 h-48 left-64 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
+          <div className=" w-96 h-48 right-64 absolute bg-blue-600 bg-opacity-50 rounded-full blur-3xl" />
         </div>
         <div className="container mx-auto flex justify-between items-center w-8/12 px-4 py-4 rounded-xl" style={{ background: 'rgba(26, 26, 26, 0.483)', backdropFilter: 'blur(0.4px)' }}>
         <div>

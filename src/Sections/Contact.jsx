@@ -71,6 +71,8 @@ function Contact() {
               </button>
             </form>
           </div>
+
+
         </div>
       </div>
     </section>
@@ -78,3 +80,37 @@ function Contact() {
 }
 
 export default Contact;
+
+
+
+
+
+
+// import React from 'react';
+// import Heading from '../components/Heading';
+
+// function Contact() {
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Handle form submission here
+//   };
+
+//   return (
+//     <section className="text-white py-16 relative" id="contact">
+//       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 w-8/12">
+//         <div>
+//           <Heading name={'CONTACT ME!'} />
+//           <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
+//           <form onSubmit={handleSubmit}>
+//             {/* Your form fields */}
+//           </form>
+//         </div>
+//         <div>
+
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
+
+// export default Contact;

@@ -56,7 +56,7 @@ function ProjectCard({ project }) {
       <div className="mt-4 flex">
         <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mr-4 flex justify-start items-center">
           <div className='flex justify-center gap-2 items-center'>
-          <img src="../Images/Frame 1.svg" alt="" />
+          <img src="./images/Frame 1.svg" alt="" />
           <span>Demo</span>
           </div>
           
@@ -65,7 +65,7 @@ function ProjectCard({ project }) {
         <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex justify-start items-center">
         <div className='flex justify-center gap-2 items-center'>
 
-        <img src="../Images/Frame 2.svg" alt="" />
+        <img src="./images/Frame 2.svg" alt="" />
           <span>Code</span>
           </div>
           

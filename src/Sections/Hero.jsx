@@ -10,7 +10,7 @@ function Hero() {
         <div className="hero-content text-center">
 
           <div>
-            <img src="./profile.png" alt="" className='w-40 h-40 object-cover rounded-full mb-8'/>
+            <img src="./images/profile.png" alt="" className='w-40 h-40 object-cover rounded-full mb-8'/>
           </div>
 
           <p className="text-5xl font-bold w-[100%] leading-tight">

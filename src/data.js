@@ -101,13 +101,14 @@ export const experienceData = [
       company: 'Aresuno',
       date: 'May 2023 – Jul 2023',
       description: 'Developed the frontend of a sanitary ecommerce website using HTML, CSS, Bootstrap, and JavaScript. Collaborated with the team to enhance user experience and implement interactive features.',
-      icon:'https://aresuno.com/uploads/2018-08/cb42c43ec7d2fa5bb5de3c56c82d7072.png'
+      icon:'./images/GalaxyGrow.png'
     },
     {
       title: 'Freelance Web Developer',
       company: 'Self-Employed',
       date: 'May 2023 – Present',
       description: 'Engineered a real-time exercise form evaluation app employing WebRTC, Socket.IO, and OpenCV technologies. It provided instant feedback and guidance for users\' workout techniques, enhancing safety and effectiveness.',
+      icon:'./images/GalaxyGrow.png'
     },
     // Add more work experiences here
   ];

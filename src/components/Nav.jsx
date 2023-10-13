@@ -101,7 +101,7 @@ const SecondaryNavigation = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [activeSection]);
+  }, [activeSection]);  
 
   return (
     <div className={`text-white text-base ${showSecondaryNav ? '' : 'hidden'} duration-300 font-medium`} style={{fontFamily: 'Edu QLD Beginner, cursive'

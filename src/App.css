@@ -113,3 +113,6 @@ body{
 .grline{
   background: linear-gradient(90deg, #ffffff 0%, #00000000 100%);
 }
+.grlineV{
+  background: linear-gradient(180deg,#afafaf 0%, #afafaf61 70%,  #00000000 100%);
+}

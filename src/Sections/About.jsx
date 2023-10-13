@@ -13,8 +13,8 @@ function About() {
 
 
 
-        <div className="responsive-iframe">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/4yYZKSw3t44?si=Y1eQJl2FoRIkKGDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div className="responsive-iframe rounded-2xl">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4yYZKSw3t44?si=Y1eQJl2FoRIkKGDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='rounded-3xl'></iframe>
           </div>
       </div>
     </section>

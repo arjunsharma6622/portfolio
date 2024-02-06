@@ -28,7 +28,7 @@ function Hero() {
           </p>
           <div className="mt-8">
             <a
-              href="Resume_arjunSharma.pdf" // Replace with the actual link to your resume
+              href="resume.pdf" // Replace with the actual link to your resume
               target="_blank"
               className="text-primary bg-transparent border border-primary rounded-full px-6 py-3 mx-2 hover:bg-primary hover:text-white transition duration-300"
             >

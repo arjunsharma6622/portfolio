@@ -42,12 +42,14 @@ export const skillsData = [
   { name: 'MongoDb', imageSrc: './images/Icons/mongodb.svg', tag: 'Web' },
   { name: 'Postman', imageSrc: './images/Icons/postman.svg', tag: 'Web' },
   { name: 'Firebase', imageSrc: './images/Icons/firebase.svg', tag: 'Web' },
+  { name: 'Cloudinary', imageSrc: './images/Icons/cloudinary.svg', tag: 'Web' },
   { name: 'npm', imageSrc: './images/Icons/npm.svg', tag: 'Web' },
-  { name: 'json', imageSrc: './images/Icons/json.svg', tag: 'Web' },
+  { name: 'SEO', imageSrc: './images/Icons/seo.svg', tag: 'Web' },
+  { name: 'Google Maps', imageSrc: './images/Icons/maps.svg', tag: 'Web' },
   { name: 'VS Code', imageSrc: './images/Icons/vs.svg', tag: 'Web' },
   { name: 'Git', imageSrc: './images/Icons/git.svg', tag: 'Web' },
   { name: 'GitHub', imageSrc: './images/Icons/github.svg', tag: 'Web' },
-  { name: 'OpenAI', imageSrc: './images/Icons/openai.svg', tag: 'Web' },
+  // { name: 'OpenAI', imageSrc: './images/Icons/openai.svg', tag: 'Web' },
 ];
 
 
@@ -81,19 +83,20 @@ export const projectsData = [
 ];
 
 export const experienceData = [
+  // {
+  //   title: 'Web Development Intern',
+  //   company: 'Aresuno',
+  //   date: 'May 2023 – Jul 2023',
+  //   description: 'Developed the frontend of a sanitary ecommerce website using HTML, CSS, Bootstrap, and JavaScript. Collaborated with the team to enhance user experience and implement interactive features.',
+  //   icon: './images/GalaxyGrow.png'
+  // },
   {
-    title: 'Web Development Intern',
-    company: 'Aresuno',
-    date: 'May 2023 – Jul 2023',
-    description: 'Developed the frontend of a sanitary ecommerce website using HTML, CSS, Bootstrap, and JavaScript. Collaborated with the team to enhance user experience and implement interactive features.',
-    icon: './images/GalaxyGrow.png'
-  },
-  {
-    title: 'Freelance Web Developer',
-    company: 'Self-Employed',
-    date: 'May 2023 – Present',
+    title: 'Full Stack Web Developer',
+    company: 'Freelancing',
+    date: 'October 2023 – Present',
     description: 'Engineered a real-time exercise form evaluation app employing WebRTC, Socket.IO, and OpenCV technologies. It provided instant feedback and guidance for users\' workout techniques, enhancing safety and effectiveness.',
-    icon: './images/GalaxyGrow.png'
+    icon: './images/GalaxyGrow.png',
+    workImages : []
   },
   // Add more work experiences here
 ];

@@ -93,10 +93,40 @@ export const experienceData = [
   {
     title: 'Full Stack Web Developer',
     company: 'Freelancing',
+    client : "aresuno.com ( Rahul Verma )",
     date: 'October 2023 – Present',
-    description: 'Engineered a real-time exercise form evaluation app employing WebRTC, Socket.IO, and OpenCV technologies. It provided instant feedback and guidance for users\' workout techniques, enhancing safety and effectiveness.',
+    description: [
+      "Engineered an end-to-end system empowering small-scale businesses. From profile creation to lead generation and seamless operations management, the platform integrates robust business tools, a reviews system, and user-friendly vendor dashboards.",
+      "Designed and rigorously tested APIs from scratch, covering vital aspects like businesses, vendors, users, and authentication. The integrated features ensure a smooth flow of information and efficient functionality, including business management tools and vendor dashboards.",
+      "Elevated the website's SEO score to an impressive 99 on Google's PageSpeed Insights. Implemented Schema.org schemas to optimize data structure for Google bots, enhancing search engine visibility and generating rich results",
+      "Prioritized client interaction throughout the project, ensuring their needs were met. Employed Figma for initial design phases, seamlessly translating concepts into the coding process. This client-centric approach enhanced collaboration and resulted in a refined, user-focused end product"
+    ],
     icon: './images/GalaxyGrow.png',
-    workImages : []
+    images : [
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214235/portfolio/a5p2yaffojamdszmammy.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214238/portfolio/rjmunun9quopeworzrrr.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214234/portfolio/aqgcvlj5eb2jjgmdca38.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214237/portfolio/ra29lq2ulp2b03vmnmih.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214235/portfolio/k3chttnvj0bqip3fnupm.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214235/portfolio/wksplkdpvpenm8ummfqm.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214237/portfolio/yvm7qeaoj8kunhdmkrro.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214236/portfolio/ylvijpwl8xrppeovphhz.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214236/portfolio/ee39uxpo81r7jjw7kdxf.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214236/portfolio/mr2nle7jqesjjdrc9nm1.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214236/portfolio/jar3mkjhc74ndrnqs3aw.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214235/portfolio/ki6pq7cm8eaxafsger8g.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214235/portfolio/htt9ssoo08lggwznw6ip.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214565/portfolio/dsmafhkfgam5i8xgrkpp.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214236/portfolio/he2mpo16rtgbyd27kxev.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214239/portfolio/ppxzgmwncrjqx6k0qif7.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214236/portfolio/znch62p6hnfug8enyrzm.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214237/portfolio/ziyhonokpgqgwdfgxa1y.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214237/portfolio/gfojbbpappi7tk4jpf8k.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214237/portfolio/cdpwshodv71u7sueczv7.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214237/portfolio/yftrea0u3dgb2alf3b2u.png",
+      "https://res.cloudinary.com/dexnb3wkw/image/upload/v1707214239/portfolio/jvsjp7txpeiq7zvfvjmh.png",
+    ],
+    techStack : ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Redux', 'Node.js', 'Express.js', 'Postman', 'MongoDB', 'Vercel', 'Schema.org', 'Figma', 'Canva','Google Page Speed Insights', 'Google Maps API', 'Places API', 'Geocoding API', 'Fast2SMS (OTP verification system)', 'Cloudinary (CDN)']
   },
   // Add more work experiences here
 ];

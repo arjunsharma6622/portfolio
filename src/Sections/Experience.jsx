@@ -18,7 +18,10 @@ function Experience() {
               date={experience.date}
               description={experience.description}
               icon={experience.icon}
-
+              images={experience.images}
+              company={experience.company}
+              client={experience.client}
+              techStack={experience.techStack}
             />
           ))}
         </ol>

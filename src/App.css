@@ -117,3 +117,11 @@ body{
 .grlineV{
   background: linear-gradient(180deg,#afafaf 0%, #afafaf61 70%,  #00000000 100%);
 }
+
+
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

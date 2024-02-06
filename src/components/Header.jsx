@@ -53,16 +53,17 @@ function Header() {
 
       { showMobileMenu &&
 
-<div className='fixed h-[100vh] z-[1000] top-0 left-0 bg-opacity-90 filter backdrop-blur-[2px] w-full bg-black flex justify-between py-8 items-center flex-col gap-4'>
+<div className='fixed h-[100vh] z-[1000] top-0 left-0 bg-opacity-90 filter backdrop-blur-[2px] w-full bg-black flex justify-start gap-20 py-8 items-center flex-col'>
   <div className='w-full items-end flex justify-end pr-10'>
     <FiX className="w-6 h-6 md:hidden" onClick={() => setShowMobileMenu(false)}/>
   </div>
+  
       <div className='flex flex-col gap-4 items-start text-lg justify-center'>
-          <a href="#about" className=" hover:text-accent2 transition duration-300">About</a>
-          <a href="#skills" className=" hover:text-accent2 transition duration-300">Skills</a>
-          <a href="#experience" className=" hover:text-accent2 transition duration-300">Experience</a>
-          <a href="#projects" className=" hover:text-accent2 transition duration-300">Projects</a>
-          <a href="#contact" className=" hover:text-accent2 transition duration-300">Contact</a>
+          <a href="#about" onClick={() => setShowMobileMenu(false)} className=" hover:text-accent2 transition duration-300">About</a>
+          <a href="#skills" onClick={() => setShowMobileMenu(false)} className=" hover:text-accent2 transition duration-300">Skills</a>
+          <a href="#experience" onClick={() => setShowMobileMenu(false)} className=" hover:text-accent2 transition duration-300">Experience</a>
+          <a href="#projects" onClick={() => setShowMobileMenu(false)} className=" hover:text-accent2 transition duration-300">Projects</a>
+          <a href="#contact" onClick={() => setShowMobileMenu(false)} className=" hover:text-accent2 transition duration-300">Contact</a>
         </div>
         <div className='flex gap-4'>
           {
@@ -74,6 +75,8 @@ function Header() {
           }
 
         </div>
+
+
         </div>
 
 }

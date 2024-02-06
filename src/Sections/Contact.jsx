@@ -9,8 +9,8 @@ function Contact() {
   };
 
   return (
-    <section className=" text-white py-16 relative" id='contact'>
-      <div className="container mx-auto w-8/12 ">
+    <section className=" text-white py-8 md:py-16 relative" id='contact'>
+      <div className="container mx-auto w-[90%] md:w-8/12 ">
         {/* <h2 className="text-4xl font-bold mb-6 text-center">Contact</h2> */}
 
 

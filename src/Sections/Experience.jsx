@@ -6,8 +6,8 @@ import { experienceData } from '../data';
 
 function Experience() {
   return (
-    <section className=" text-white py-16" id='experience'>
-      <div className="container mx-auto w-8/12">
+    <section className=" text-white py-8 md:py-16" id='experience'>
+      <div className="container mx-auto w-[90%] md:w-8/12">
         <Heading name={'EXPERIENCE'} heading_desc={'My Professional Voyage'}/>
 
         <ol className="relative pl-8 flex flex-col gap-6">

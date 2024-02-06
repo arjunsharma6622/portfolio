@@ -25,7 +25,7 @@ const CursorTrail = () => {
 
   return (
     <div
-      className="z-10 fixed w-[100px] h-[100px] blur-2xl opacity-20 rounded-full pointer-events-none"
+      className="hidden md:block z-10 md:fixed w-[100px] h-[100px] blur-2xl opacity-20 rounded-full pointer-events-none"
       style={{
         left: trailStyles.left + 'px',
         top: trailStyles.top + 'px',

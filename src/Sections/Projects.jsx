@@ -59,16 +59,16 @@ function ProjectCard({ project }) {
   };
 
   return (
-    <div className="bg-secondary border border-neutral-700 rounded-xl shadow-lg p-6 ">
+    <div className="bg-secondary border border-neutral-700 rounded-xl shadow-lg p-4 md:p-6 ">
       <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
-      <div className='h-60 mb-4'>
+      <div className='h-auto mb-4'>
         <Slider {...settings}>
           {project.images.map((image, index) => (
             <img src={`./images/projects/${project.dir_name}/${image}.png`} alt={`project-${index}`} className='h-full w-full object-contain rounded-lg' key={index} />
           ))}
         </Slider>
       </div>
-      <p className="text-gray-600 mb-4 mt-8">{project.description}</p>
+      <p className="text-gray-600 text-sm md:text-base mb-4">{project.description}</p>
       <div className="mb-4">
         <ul className="text-gray-600 flex flex-wrap text-sm gap-1">
           {project.techStack.map((tech, index) => (
@@ -99,9 +99,9 @@ function ProjectCard({ project }) {
 
 function Projects() {
   return (
-    <section className=" text-white py-16 relative " id='projects'>
+    <section className=" text-white py-8 md:py-16 relative " id='projects'>
 
-      <div className="container mx-auto w-8/12">
+      <div className="container mx-auto w-[90%] md:w-8/12">
 
         <Heading name={'PROJECTS'} heading_desc={'A Portfolio of Projects'} />
 

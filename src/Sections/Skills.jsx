@@ -5,7 +5,7 @@ import { skillsData } from '../data';
 function SkillCard({ skill }) {
   return (
     <div
-      className="flex px-4 py-1 bg-neutral-900 rounded-lg border border-neutral-700 flex-row justify-start items-center"
+      className="flex md:px-4 px-2 md:py-1 bg-neutral-900 rounded-lg border border-neutral-700 flex-row justify-start items-center"
     >
       <div className="justify-center items-center rounded-xl ">
         <img
@@ -29,10 +29,10 @@ function SkillCard({ skill }) {
 
 function Skills() {
   return (
-    <section className=" text-white py-16 relative" id='skills'>
-      <div className="container mx-auto w-8/12">
+    <section className=" text-white py-8 md:py-16 relative" id='skills'>
+      <div className="container mx-auto w-[90%] md:w-8/12">
         <Heading name={'SKILLS'} heading_desc={'Skills That Define Me'}/>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-2">
           {skillsData.map((skill, index) => (
             <SkillCard key={index} skill={skill} />
           ))}

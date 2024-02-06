@@ -34,7 +34,7 @@ export const skillsData = [
   { name: 'Tailwind', imageSrc: './images/Icons/tailwind.svg', tag: 'Web' },
   { name: 'SASS', imageSrc: './images/Icons/sass.svg', tag: 'Web' },
   { name: 'Bootstrap', imageSrc: './images/Icons/bootstrap5.svg', tag: 'Web' },
-  { name: 'Material UI', imageSrc: './images/Icons/material-ui.svg', tag: 'Web' },
+  { name: 'MUI', imageSrc: './images/Icons/material-ui.svg', tag: 'Web' },
   { name: 'Figma', imageSrc: './images/Icons/figma.svg', tag: 'Web' },
   { name: 'Canva', imageSrc: './images/Icons/canva.svg', tag: 'Web' },
 
@@ -45,7 +45,7 @@ export const skillsData = [
   { name: 'Cloudinary', imageSrc: './images/Icons/cloudinary.svg', tag: 'Web' },
   { name: 'npm', imageSrc: './images/Icons/npm.svg', tag: 'Web' },
   { name: 'SEO', imageSrc: './images/Icons/seo.svg', tag: 'Web' },
-  { name: 'Google Maps', imageSrc: './images/Icons/maps.svg', tag: 'Web' },
+  { name: 'GMaps', imageSrc: './images/Icons/maps.svg', tag: 'Web' },
   { name: 'VS Code', imageSrc: './images/Icons/vs.svg', tag: 'Web' },
   { name: 'Git', imageSrc: './images/Icons/git.svg', tag: 'Web' },
   { name: 'GitHub', imageSrc: './images/Icons/github.svg', tag: 'Web' },

@@ -67,9 +67,9 @@ function Header() {
         </div>
         <div className='flex gap-4'>
           {
-            socialLinks.map((link, index) => (
-              <a href={link.url} key={index} target="_blank" rel="noopener noreferrer" className="text-accent1 hover:text-accent2 transform my-1">
-                <img src={link.icon} alt="" className='h-8 w-8'/>
+            socialLinks.map((social, index) => (
+              <a href={social.link} key={index} target="_blank" rel="noopener noreferrer" className="text-accent1 hover:text-accent2 transform my-1">
+                <img src={social.icon} alt="" className='h-8 w-8'/>
               </a>
             ))
           }

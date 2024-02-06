@@ -10,7 +10,7 @@ function Experience() {
       <div className="container mx-auto w-8/12">
         <Heading name={'EXPERIENCE'} heading_desc={'My Professional Voyage'}/>
 
-        <ol className="relative pl-8">
+        <ol className="relative pl-8 flex flex-col gap-6">
           {experienceData.map((experience, index) => (
             <TimeLine
               key={index}
@@ -22,6 +22,8 @@ function Experience() {
               company={experience.company}
               client={experience.client}
               techStack={experience.techStack}
+              gitHub={experience.gitHub}
+              demo={experience.demo}
             />
           ))}
         </ol>

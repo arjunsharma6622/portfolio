@@ -16,13 +16,13 @@ function Contact() {
 
         <Heading name={'CONTACT ME!'} heading_desc={'Connect With Me'}/>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="w-[80%]">
 
-          <div>
+          <div className='w-full'>
             <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='w-full flex flex-col gap-2'>
               <div className="mb-4">
-                <label htmlFor="name" className="block text-white text-sm font-semibold mb-2">
+                <label htmlFor="name" className="block text-white text-xl font-medium mb-2">
                   Name
                 </label>
                 <input
@@ -30,13 +30,13 @@ function Contact() {
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full bg-neutral-800 text-white p-2 rounded"
+                  className="w-full bg-neutral-800 text-white p-4 focus:outline-none rounded-lg"
                   required
                 />
               </div>
 
               <div className="mb-4">
-                <label htmlFor="email" className="block text-white text-sm font-semibold mb-2">
+                <label htmlFor="email" className="block text-white text-xl font-medium mb-2">
                   Email
                 </label>
                 <input
@@ -44,13 +44,13 @@ function Contact() {
                   id="email"
                   name="email"
                   placeholder="Your Email"
-                  className="w-full bg-neutral-800 text-white p-2 rounded"
+                  className="w-full bg-neutral-800  text-white p-4 rounded-lg focus:outline-none"
                   required
                 />
               </div>
 
               <div className="mb-4">
-                <label htmlFor="message" className="block text-white text-sm font-semibold mb-2">
+                <label htmlFor="message" className="block text-white text-xl font-medium mb-2">
                   Message
                 </label>
                 <textarea
@@ -58,14 +58,14 @@ function Contact() {
                   name="message"
                   placeholder="Your Message"
                   rows="4"
-                  className="w-full bg-neutral-800 text-white p-2 rounded"
+                  className="w-full resize-none bg-neutral-800 text-white p-4 rounded-lg focus:outline-none"
                   required
                 />
               </div>
 
               <button
                 type="submit"
-                className="bg-accent1 text-primary py-2 px-4 rounded hover:bg-accent2 transition duration-300"
+                className=" text-primary py-2 px-4 rounded hover:bg-accent2 transition duration-300"
               >
                 Send Message
               </button>

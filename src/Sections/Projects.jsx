@@ -68,7 +68,7 @@ function ProjectCard({ project }) {
           ))}
         </Slider>
       </div>
-      <p className="text-gray-600 mb-4">{project.description}</p>
+      <p className="text-gray-600 mb-4 mt-8">{project.description}</p>
       <div className="mb-4">
         <ul className="text-gray-600 flex flex-wrap text-sm gap-1">
           {project.techStack.map((tech, index) => (

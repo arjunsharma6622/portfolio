@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import Heading from '../components/Heading';
 import { FiSend } from 'react-icons/fi';
 import emailjs from '@emailjs/browser';
+import {ToastContainer, toast} from "react-toastify"
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 
 
@@ -14,8 +19,12 @@ function Contact() {
     message: '',
   });
 
+  const [sending, setSending] = useState(false)
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    setSending(true)
 
     emailjs
       .send(
@@ -27,13 +36,20 @@ function Contact() {
       .then(
         (response) => {
           console.log('Email sent successfully:', response);
+          toast.success('Message sent');
+          setSending(false)
+            
           // Handle success response as needed
         },
         (error) => {
           console.error('Error sending email:', error);
-          // Handle error response as needed
+          toast.error('Error sending message');
+          setSending(false)
+          // Handle error response as needed 
         }
       );
+
+
   };
 
 
@@ -99,8 +115,18 @@ function Contact() {
                 type="submit"
                 className=" bg-[#58585897]  w-full text-base text-primary py-3 px-3 md:py-3 md:px-4 rounded hover:bg-accent2 transition duration-300"
               >
+                { sending ? (
+                  <div>
+<AiOutlineLoading3Quarters className='animate-spin inline-block mr-3 md:mr-4 w-5 h-5 md:w-6 md:h-6'/>
+                  sending...
+                  </div>
+                ) : (
+                  <div>
                 <FiSend className="inline-block mr-3 md:mr-4 w-5 h-5 md:w-6 md:h-6" />
                 Send Message
+                </div>
+                )
+}
               </button>
             </form>
           </div>
@@ -108,6 +134,7 @@ function Contact() {
 
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 }

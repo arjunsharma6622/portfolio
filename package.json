@@ -21,6 +21,7 @@
     "react-spring": "^9.7.3",
     "react-text-gradients": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "react-zoom-pan-pinch": "^3.4.2",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

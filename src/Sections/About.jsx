@@ -14,7 +14,7 @@ function About() {
 
 
         <div className="responsive-iframe rounded-2xl">
-          <iframe width="" height="" src="https://www.youtube.com/embed/4yYZKSw3t44?si=Y1eQJl2FoRIkKGDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='rounded-lg md:rounded-3xl w-full aspect-video'></iframe>
+          <iframe width="" height="" src="https://www.youtube.com/embed/4yYZKSw3t44?si=Y1eQJl2FoRIkKGDc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className='rounded-lg md:rounded-3xl w-full aspect-video'></iframe>
           </div>
       </div>
     </section>

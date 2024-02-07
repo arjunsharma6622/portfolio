@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../components/Heading';
 import { skillsData } from '../data';
 
+
 function SkillCard({ skill }) {
   return (
     <div

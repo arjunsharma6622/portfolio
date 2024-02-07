@@ -9,7 +9,7 @@ function SkillCard({ skill }) {
     >
       <div className="justify-center items-center rounded-xl ">
         <img
-          className="h-16 w-16 items-center justify-center"
+          className="md:h-16 md:w-16 h-12 w-12 items-center justify-center"
           src={`${skill.imageSrc}`} // Use the actual path to the skill image
           alt={skill.name}
           width={'100%'}

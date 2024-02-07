@@ -6,11 +6,11 @@ import { skillsData } from '../data';
 function SkillCard({ skill }) {
   return (
     <div
-      className="flex md:px-4 px-2 md:py-1 bg-neutral-900 rounded-lg border border-neutral-700 flex-row justify-start items-center"
+      className="flex md:px-4 px-2 py-[2px] md:py-1 bg-neutral-900 rounded-lg border border-neutral-700 flex-row justify-start items-center"
     >
       <div className="justify-center items-center rounded-xl ">
         <img
-          className="md:h-16 md:w-16 h-12 w-12 items-center justify-center"
+          className="md:h-16 md:w-16 h-14 w-14 items-center justify-center"
           src={`${skill.imageSrc}`} // Use the actual path to the skill image
           alt={skill.name}
           width={'100%'}

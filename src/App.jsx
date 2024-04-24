@@ -25,7 +25,7 @@ function App() {
       <Projects />
       <Contact />
       <SocialMedia />
-      <SecondaryNavigation />
+      {/* <SecondaryNavigation /> */}
       <Footer />
       <CursorTrail />
     </>

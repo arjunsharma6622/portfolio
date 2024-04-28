@@ -95,7 +95,7 @@ export const experienceData = [
       "Elevated the website's SEO score to an impressive 99 on Google's PageSpeed Insights. Implemented Schema.org schemas to optimize data structure for Google bots, enhancing search engine visibility and generating rich results",
       "Prioritized client interaction throughout the project, ensuring their needs were met. Employed Figma for initial design phases, seamlessly translating concepts into the coding process. This client-centric approach enhanced collaboration and resulted in a refined, user-focused end product"
     ],
-    icon: './images/GalaxyGrow.png',
+    icon: './images/2.png',
     images : [
       "https://res.cloudinary.com/dexnb3wk2/image/upload/v1707214235/portfolio/Aresuno/a5p2yaffojamdszmammy.png",
       "https://res.cloudinary.com/dexnb3wk2/image/upload/v1707214238/portfolio/Aresuno/rjmunun9quopeworzrrr.png",
@@ -135,7 +135,7 @@ export const experienceData = [
       "Elevated the website's SEO score to an impressive 99 on Google's PageSpeed Insights. Implemented Schema.org schemas to optimize data structure for Google bots, enhancing search engine visibility and generating rich results",
       "Prioritized client interaction throughout the project, ensuring their needs were met. Employed Figma for initial design phases, seamlessly translating concepts into the coding process. This client-centric approach enhanced collaboration and resulted in a refined, user-focused end product"
     ],
-    icon: './images/GalaxyGrow.png',
+    icon: './images/1.png',
     images : [
       "https://res.cloudinary.com/dexnb3wk2/image/upload/v1707222490/portfolio/Infraterio/cdnmtmczyzfpc8iqiwj8.png",
       "https://res.cloudinary.com/dexnb3wk2/image/upload/v1707222477/portfolio/Infraterio/objkqpgmbh7wkgticevj.png",

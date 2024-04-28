@@ -46,10 +46,10 @@ function Timeline({ heading, date, description, icon, images, company, client, t
   return (
     <li className="mb-6 sm:mb-8 md:mb-10 md:ml-6 ">
       <div className="absolute hidden md:block h-full w-[1px] md:w-1  left-0 top-12 grlineV"/>
-      <span className="absolute hidden z-10 md:flex items-center justify-center w-6 h-6 md:w-14 md:h-14 rounded-full -left-6">
-        <img src={icon} alt="" className='rounded-full relative' />
+      <span className="absolute hidden z-10 md:flex items-center justify-center w-6 h-6 md:w-14 md:h-14 rounded-full -left-[26px]">
+        <img src={icon} alt="" className=' rounded-full bg-gray-300 relative' />
         {/* <span className='text-2xl bg-white rounded-full w-10'>1</span> */}
-        <div className="-z-10 w-6 h-6 absolute bg-white bg-opacity-90 rounded-full blur-lg" />
+        <div className="-z-10 w-9 h-9 absolute bg-white bg-opacity-90 rounded-full blur-lg" />
       </span>
       <div className='flex flex-col gap-2'>
         <div className='flex flex-col gap-1'>

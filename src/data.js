@@ -5,11 +5,11 @@ export const socialLinks = [
   },
   {
     icon: './images/Icons/Social/github.svg',
-    link: 'https://github.com/Arjun27sharma'
+    link: 'https://github.com/arjunsharma6622'
   },
   {
     icon: './images/Icons/Social/Leetcode.svg',
-    link: 'https://leetcode.com/arjunsharma6622/'
+    link: 'https://leetcode.com/u/arjunsharma6622/'
   },
   {
     icon: './images/Icons/Social/Medium.svg',
@@ -23,33 +23,29 @@ export const socialLinks = [
 
 
 export const skillsData = [
-  { name: 'JavaScript', imageSrc: './images/Icons/js.svg', tag: 'Web' },
-  { name: 'Python', imageSrc: './images/Icons/python.svg', tag: 'Web' },
-  { name: 'C++', imageSrc: './images/Icons/c++.svg', tag: 'Web' },
-  { name: 'HTML', imageSrc: './images/Icons/html5.svg', tag: 'Web' },
-  { name: 'CSS', imageSrc: './images/Icons/css.svg', tag: 'Web' },
+  { name: 'TypeScript', imageSrc: './images/Icons/ts.svg', tag: 'language' },
+  { name: 'JavaScript', imageSrc: './images/Icons/js.svg', tag: 'language' },
+  { name: 'HTML', imageSrc: './images/Icons/html5.svg', tag: 'language' },
+  { name: 'CSS', imageSrc: './images/Icons/css.svg', tag: 'language' },
+  { name: 'Python', imageSrc: './images/Icons/python.svg', tag: 'language' },
 
-  { name: 'React', imageSrc: './images/Icons/reactjs.svg', tag: 'Web' },
-  { name: 'Redux', imageSrc: './images/Icons/redux.svg', tag: 'Web' },
-  { name: 'Tailwind', imageSrc: './images/Icons/tailwind.svg', tag: 'Web' },
-  { name: 'SASS', imageSrc: './images/Icons/sass.svg', tag: 'Web' },
-  { name: 'Bootstrap', imageSrc: './images/Icons/bootstrap5.svg', tag: 'Web' },
-  { name: 'MUI', imageSrc: './images/Icons/material-ui.svg', tag: 'Web' },
-  { name: 'Figma', imageSrc: './images/Icons/figma.svg', tag: 'Web' },
-  { name: 'Canva', imageSrc: './images/Icons/canva.svg', tag: 'Web' },
+  { name: 'React', imageSrc: './images/Icons/reactjs.svg', tag: 'frontend' },
+  { name: 'Redux', imageSrc: './images/Icons/redux.svg', tag: 'frontend' },
+  { name: 'Tailwind', imageSrc: './images/Icons/tailwind.svg', tag: 'frontend' },
+  { name: 'MUI', imageSrc: './images/Icons/material-ui.svg', tag: 'frontend' },
+  { name: 'Figma', imageSrc: './images/Icons/figma.svg', tag: 'frontend' },
 
-  { name: 'NodeJs', imageSrc: './images/Icons/nodejs.svg', tag: 'Web' },
-  { name: 'MongoDb', imageSrc: './images/Icons/mongodb.svg', tag: 'Web' },
-  { name: 'Postman', imageSrc: './images/Icons/postman.svg', tag: 'Web' },
-  { name: 'Firebase', imageSrc: './images/Icons/firebase.svg', tag: 'Web' },
-  { name: 'Cloudinary', imageSrc: './images/Icons/cloudinary.svg', tag: 'Web' },
-  { name: 'npm', imageSrc: './images/Icons/npm.svg', tag: 'Web' },
-  { name: 'SEO', imageSrc: './images/Icons/seo.svg', tag: 'Web' },
-  { name: 'GMaps', imageSrc: './images/Icons/maps.svg', tag: 'Web' },
-  { name: 'VS Code', imageSrc: './images/Icons/vs.svg', tag: 'Web' },
-  { name: 'Git', imageSrc: './images/Icons/git.svg', tag: 'Web' },
-  { name: 'GitHub', imageSrc: './images/Icons/github.svg', tag: 'Web' },
-  // { name: 'OpenAI', imageSrc: './images/Icons/openai.svg', tag: 'Web' },
+  { name: 'NodeJs', imageSrc: './images/Icons/nodejs.svg', tag: 'backend' },
+  { name: 'MongoDb', imageSrc: './images/Icons/mongodb.svg', tag: 'backend' },
+  { name: 'Postman', imageSrc: './images/Icons/postman.svg', tag: 'backend' },
+  { name: 'Firebase', imageSrc: './images/Icons/firebase.svg', tag: 'backend' },
+  { name: 'Cloudinary', imageSrc: './images/Icons/cloudinary.svg', tag: 'backend' },
+
+  { name: 'SEO', imageSrc: './images/Icons/seo.svg', tag: 'others' },
+  { name: 'GMaps', imageSrc: './images/Icons/maps.svg', tag: 'others' },
+  { name: 'VS Code', imageSrc: './images/Icons/vs.svg', tag: 'others' },
+  { name: 'Git', imageSrc: './images/Icons/git.svg', tag: 'others' },
+  { name: 'GitHub', imageSrc: './images/Icons/github.svg', tag: 'others' },
 ];
 
 

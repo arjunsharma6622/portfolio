@@ -1,4 +1,3 @@
-import React from 'react';
 import Heading from '../components/Heading';
 import { skillsData } from '../data';
 
@@ -10,7 +9,7 @@ function SkillCard({ skill }) {
     >
       <div className="justify-center items-center rounded-xl ">
         <img
-          className="md:h-16 md:w-16 h-14 w-14 items-center justify-center"
+          className=" md:h-16 md:w-16 h-14 w-14 items-center justify-center"
           src={`${skill.imageSrc}`} // Use the actual path to the skill image
           alt={skill.name}
           width={'100%'}
@@ -32,12 +31,25 @@ function Skills() {
   return (
     <section className=" text-white py-8 md:py-16 relative" id='skills'>
       <div className="container mx-auto w-[90%] md:w-8/12">
-        <Heading name={'SKILLS'} heading_desc={'Skills That Define Me'}/>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-2">
+        <Heading name={'SKILLS'} heading_desc={'Skills That Define Me'} />
+        <div className="flex flex-col gap-2">
+
+          {
+            ["language", "frontend", "backend", "others"].map((tag, index) => (
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-2">
+                {skillsData.filter(skill => skill.tag === tag).map((skill, index) => (
+                  <SkillCard key={index} skill={skill} />
+                ))}
+              </div>
+            ))
+          }
+        </div>
+
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-2">
           {skillsData.map((skill, index) => (
             <SkillCard key={index} skill={skill} />
           ))}
-        </div>
+        </div> */}
       </div>
     </section >
   );
